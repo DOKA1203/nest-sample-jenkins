@@ -7,7 +7,7 @@ export class AppController {
 
   @Get('/')
   getHello(): string {
-    return process.env.NAME
+    return process.env.NAME + "tt"
     //return this.appService.getHello();
   }
 }
